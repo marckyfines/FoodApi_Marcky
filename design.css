@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2C3E50; /* Navy Blue background */
+}
+
+#box-container {
+  background-color: #FDFEFE; /* Soft Cream */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #F1C40F; /* Gold for the heading */
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #16A085; /* Deep Teal for border */
+  box-sizing: border-box;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #16A085; /* Deep Teal button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#search-button:hover {
+  background-color: #34495E; /* Charcoal Gray on hover */
+}
+
+#result-container {
+  margin-top: 30px;
+  text-align: left;
+  color: #34495E; /* Charcoal Gray for the result text */
+}
